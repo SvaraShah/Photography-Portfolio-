@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <style>
+        body {
+            position: relative;
+        }
+
+        #home {
+            padding-top: 50px;
+            height: 1000px;
+        }
+
+        .imgportfolio {
+            width: 100%;
+            height: 100%;
+        }
+
+        .bgimg-1 {
+            background-image: url("image1_files/img.webp");
+            min-height: 100%;
+            background-size: 100% 100%;
+        }
+
+        table,
+        th,
+        td {
+            border: 10px solid;
+            color: white;
+        }
+
+        img {
+            width: 100%;
+            height: 100%;
+        }
+
+        img.hover-shadow {
+            transition: 0.3s;
+        }
+
+        .hover-shadow:hover {
+            box-shadow: 0 20px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }
+    </style>
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#"><img src="image1_files/logo.png" alt="logo"></a>
+            </div>
+            <div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav">
+                        <li><a href="website-home.html">Home</a></li>
+                        <li><a href="website-home.html#about">About</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="website-contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div id="portfolio" class="container-fluid">
+        <br>
+        <br>
+        <h1>Portfolio</h1>
+        <div class="w3-content w3-container w3-padding-64" id="portfolio">
+            <div>
+                <table>
+                    <tr>
+                        <td><img class="imgportfolio hover-shadow"
+                                src="image1_files/DALL·E 2025-02-16 17.37.25 - A mystical landscape photograph in the style of a mysterious Indian photographer. The image captures a hidden valley in the Himalayas at dawn, with go.webp"
+                                alt="LANDSCAPE"></td>
+                        <td><img class="imgportfolio hover-shadow"
+                                src="image1_files/DALL·E 2025-02-16 18.12.01 - A bright and colorful landscape photograph of a tea plantation in Munnar, Kerala, during the late morning. The rolling green hills are covered with ne.webp"
+                                alt="landscape"></td>
+                        <td><img class="imgportfolio hover-shadow" src="image1_files/landscape1.webp" alt="Landscape2"></IMG></td>
+                        <td><img class="imgportfolio hover-shadow"
+                                src="image1_files/DALL·E 2025-02-16 18.11.56 - A stunning landscape photograph of Kerala’s backwaters at midday. The image features a tranquil waterway lined with lush green coconut trees. A tradit.webp"
+                                alt="landscape"></td>
+
+                    </tr>
+                    <tr>
+                        <td><img class="imgportfolio hover-shadow" src="image1_files/potrait1.webp" alt="potrait1"></td>
+                        <td><img class="imgportfolio hover-shadow"
+                                src="image1_files/DALL·E 2025-02-16 18.11.47 - A hyper-realistic portrait of a young Indian man with a confident expression. He has neatly styled hair, a well-groomed beard, and sharp facial featur.webp"
+                                alt="potrait"></td>
+                        <td><img class="imgportfolio hover-shadow"
+                                src="image1_files/DALL·E 2025-02-16 17.37.30 - A striking portrait in the style of a mysterious Indian photographer. The image features a young Indian woman with deep, soulful eyes, her face partia.webp"
+                                alt="potrait"></td>
+                        <td><img class="imgportfolio hover-shadow"
+                                src="image1_files/DALL·E 2025-02-16 18.11.45 - A hyper-realistic portrait of an elderly Indian man with deep wrinkles and piercing eyes. He wears a traditional turban and has a calm yet intense exp.webp"
+                                alt="potrait">
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
